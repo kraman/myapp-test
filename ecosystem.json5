@@ -10,7 +10,7 @@
     production : {
       user : "pm2user",
       host : "127.0.0.1",
-      ref  : "origin/master",
+      ref  : "origin/deploy",
       repo : "git@github.com:kraman/myapp-test.git",
       path : "/home/pm2user",
       "post-deploy" : "pm2 startOrRestart ecosystem.json5 --env production"
