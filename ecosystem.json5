@@ -2,10 +2,7 @@
   apps : [
     {
       name      : "myapp",
-      script    : "server.js",
-      env_production : {
-        NODE_ENV: "production"
-      }
+      script    : "server.js"
     },
   ],
 
